@@ -32,7 +32,7 @@ var (
 	}
 )
 
-func pinFeed(w http.ResponseWriter, r *http.Request) {
+func moomoo(w http.ResponseWriter, r *http.Request) {
 	// Home page:
 	if r.URL.Path == "/" {
 		http.Redirect(w, r, repoURL, http.StatusMovedPermanently)
