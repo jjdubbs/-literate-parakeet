@@ -10,7 +10,7 @@ import (
 
 const (
 	origin  = "https://www.pinterest.com/"
-	repoURL = "https://github.com/attilaolah/pinfeed"
+	repoURL = "https://github.com/jjdubbs/literate-parakeet"
 )
 
 var (
