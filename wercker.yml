@@ -13,9 +13,9 @@ build:
     - script:
         name: go build
         code: |
-          godep go build github.com/attilaolah/pinfeed
+          godep go build github.com/jjdubbs/literate-parakeet
 
     - script:
         name: go test
         code: |
-          godep go test -rate github.com/attilaolah/pinfeed
+          godep go test -rate github.com/jjdubbs/literate-parakeet
