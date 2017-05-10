@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// Disable compression until we figure out what's wrong.
-	//http.HandleFunc("/", compress(pinFeed))
-	http.HandleFunc("/", pinFeed)
+	//http.HandleFunc("/", compress(moomoo))
+	http.HandleFunc("/", moomoo)
 	log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"), nil))
 }
